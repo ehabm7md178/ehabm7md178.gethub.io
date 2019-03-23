@@ -1,0 +1,113 @@
+body ::selection,
+.h2-head:before,
+.custam-btn,
+.feat .content-feat:hover,
+.feat .content-feat i,
+.projects ul li:hover,
+.projects ul li.selected,
+.carousel-indicators li.active,
+.foot .overlay-footer .tweets .tweet .blue,
+.color-li,
+.color,
+.skills .progress-bar{
+    background-color: rgb(230,126,34)
+}
+.projects .proj .overlay-proj span{
+    background-color: #23252a;
+}
+.contact-me .form-con .btn-primary,
+.foot .btn-primary{
+    background-color: #793b06;
+    border-color: #793b06;
+}
+.contact-me .form-con .btn-primary:hover,
+.foot .btn-primary:hover{
+    background-color: #965822;
+    border-color: #965822;
+}
+.span-head,
+.navbar ul li a:hover,
+.navbar ul li.active,
+.home .social-media-home .icon:hover .fa,
+.feat .content-feat:hover i,
+.feat .content-feat h3,
+.reviews .testmonial h2,
+.foot .overlay-footer h2,
+.foot .overlay-footer h3,
+.foot .overlay-footer .social-media .icon:hover i,
+.foot .overlay-footer ul li a:hover,
+.navbar .social-nav .sub a{
+    color: rgba(230, 126, 34, 1)
+}
+.custam-btn {
+    border-color: rgba(230, 126, 34, 1)
+}
+.navbar ul li.active{
+    border-bottom: 3.5px solid rgba(230, 126, 34, 1);
+}
+.home .overlay-home{
+    background-color: rgba(230, 126, 34, .6)
+}
+.feat .content-feat,
+.projects ul li {
+    border: 2px solid rgba(230, 126, 34, 1)
+}
+.feat .content-feat:hover p{
+    color: rgb(169, 209, 212)
+}
+.projects .proj .overlay-proj {
+	background-color: rgba(230, 126, 34, .7)
+}
+.gallery .overlay-gall,
+.contact-me .form-con,
+.scroll-top{
+	background: rgba(230, 126, 34, .8)
+}
+.contact-me .form-con .main-form span{
+    color: #793b06
+}
+.contact-me .form-con .main-form .mail:after {
+	border-top: 65px solid rgba(230, 126, 34, .8)
+}
+
+/*--------------------*/
+@media (max-width: 350px) {
+    .projects ul{
+        border-left: 3px solid rgba(230, 126, 34, 1)
+    }
+    .projects ul li{
+    	border: 3px solid transparent;
+    }
+    .projects ul li{
+    	border: none;
+    }
+    .projects ul li:hover{
+        color: rgba(230, 126, 34, 1)
+        border: 3px solid rgba(230, 126, 34, 1)
+    }
+    .projects ul li.selected{
+        color: rgba(230, 126, 34, 1)
+        border: 3px solid rgba(230, 126, 34, 1)
+        background-color: #FFF
+    }
+}
+@media (min-width: 351px) and (max-width: 797px){
+    .projects ul{
+        border-left: 3px solid rgba(230, 126, 34, 1)
+    }
+    .projects ul li{
+    	border: 3px solid transparent;
+    }
+    .projects ul li:hover{
+        color: rgba(230, 126, 34, 1)
+        background-color: #FFF;
+        border: 3px solid rgba(230, 126, 34, 1)
+        border-left:3px solid #FFF;
+    }
+    .projects ul li.selected{
+        color: rgba(230, 126, 34, 1)
+        border: 3px solid rgba(230, 126, 34, 1)
+        background-color: #FFF;
+        border-left:3px solid #FFF;
+    }
+}
